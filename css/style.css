@@ -1,0 +1,87 @@
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.navbar{
+    background-color: #f2f2f2;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #777;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #333;
+}
+.navbar-default .navbar-nav>.active>a{
+    color: #333;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.container {
+    padding: 15px;
+}
+.container-fluid {
+    padding: 15px;
+}
+
+body h1 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #000;
+    margin: 0 0 20px;
+}
+
+body ul {
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+#p_pokemonsli{
+    background-color: #36ad54;
+    text-align: center;
+    border: 3px solid rgb(2, 80, 224);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#p_titles{
+    background-color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+#plant_pokemons{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#plant_pokemons ul{
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
+    display: inline;
+}
+
+#plant_pokemons li{
+    background-color: #36ad54;
+    text-align: center;
+    border: 3px solid rgb(2, 80, 224);
+    border-radius: 20px;
+}
