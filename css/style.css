@@ -3,18 +3,14 @@
         width: 100%;
     }
 }
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
 
-.navbar{
-    background-color: #f2f2f2;
+.container {
+    width: 100%;
+    padding: 5px;
 }
-.navbar-default .navbar-nav>li>a{
-    color: #777;
-}
-.navbar-default .navbar-nav>li>a:hover{
-    color: #333;
-}
-.navbar-default .navbar-nav>.active>a{
-    color: #333;
+.container > .row {
+    margin: 0 -5px;
 }
 
 body {
@@ -22,9 +18,66 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #f2f2f2;
     text-align: center;
+    background-color: #ffffff;
+    
 }
+.container {
+    padding: 15px;
+}
+
+header {
+    background-color: #CE2211;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+}
+
+#BelowBody{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 20px;
+    border-radius: 20px;
+}
+
+#H_title {
+    font-size: 50px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Pokemon Solid', sans-serif;
+    text-shadow: 3px 2px #000000;
+    letter-spacing: 5px;
+    }
+
+#wholeBody{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    background-color: #CE2211;
+}
+
+header img {
+    width: 75px;
+    height: 75px;
+    border-radius: 70%;
+}
+
+#Pokeball{
+    width: 50px;
+    height: 50px;
+
+}
+
+
 .container {
     padding: 15px;
 }
@@ -38,7 +91,11 @@ body h1 {
     line-height: 1.1;
     color: #000;
     margin: 0 0 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
+
 
 body ul {
     list-style-type: none;
@@ -47,41 +104,56 @@ body ul {
 
 }
 
-
 #p_pokemonsli{
-    background-color: #36ad54;
     text-align: center;
-    border: 3px solid rgb(2, 80, 224);
     border-radius: 20px;
     padding: 10px;
+    margin: 10px;
+    height: 350px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #DFDFDF;
+    box-shadow: 5 5px 10px rgba(0, 0, 0, 0.05);
 }
 
 #p_titles{
-    background-color: #f2f2f2;
+    background-color: #DFDFDF ;
     font-size: 20px;
     font-weight: 300;
     line-height: 1.1;
     margin: 0 0 20px;
     text-align: center;
+    font-weight: 500;
 }
 
-#plant_pokemons{
+ul{
+    list-style-type: none;
+}
+
+#p_pokemonsli li{
+    float: left;
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+
 }
 
-#plant_pokemons ul{
+#p_pokemonsli li ul{
     list-style-type: none;
     margin: 10px;
     text-align: center;
-    display: inline;
+    padding: 50px;
+    box-shadow: 10 10px 10px rgba(0, 0, 0, 0);
+
 }
 
-#plant_pokemons li{
-    background-color: #36ad54;
-    text-align: center;
-    border: 3px solid rgb(2, 80, 224);
-    border-radius: 20px;
+#PokemonImage{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
 }
