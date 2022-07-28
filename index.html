@@ -7,47 +7,175 @@
     <title>POKEDEX</title>
     <link rel = "icon" href = "images/Pokeball.png">
     <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
-    <script type="text/javascript" src = "js/pokeapi.js"></script>
+    <script type="text/javascript" src = "data\pokeapi.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 </head>
     <body>
-        <script type="text/javascript" src="js/classPokemon.js" defer></script>
+        
+        <!--<script type="text/javascript" src="js/classPokemon.js" defer></script>-->
+        <script type="text/javascript" src="js/classPokedex.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <section id = "wholeBody">
             <header>
                 <div class="container">
-                    <div class="logo">
-                        <img src="images/Pokeball.png" alt="Pokeball">
-                    </div>
-                    <div class="title">
-                        <h1 id = "H_title">POKÉDEX</h1>
-                    </div>
+                    <a href="index.html">
+                        <div class="logo">
+                            <img src="images/Pokeball.png" alt="Pokeball">
+                        </div>
+                        <div class="title">
+                            <h1 id = "H_title">POKÉDEX</h1>
+                        </div>
+                    </a>
                 </div>
             </header>
-            <section id = "BelowBody">
-                <ul id = "pokemons">
-                    <li id = "p_pokemonsli">
-                        <h3 id ="p_titles">Plant pokemons</h3>
-                        <div id="plant_pokemons">
+            <section id = "Bbody">
+                <ul id = "PTypesList">
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Grass
+                        </h3>
+                        <div class="icon grass" href = "grass.html">
+                            <a href = "grass.html">
+                            <img src="images/grass.png"/ alt="grass" >
+                            </a>
                         </div>
                     </li>
-                    <li id = "p_pokemonsli">
-                        <h3 id ="p_titles">Fire pokemons</h3>
-                        <div id="fire_pokemons">
-        
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Fire
+                        </h3>
+                        <div class="icon fire">
+                            <img src="images/fire.png"/ alt="fire">
                         </div>
                     </li>
-                    <li id = "p_pokemonsli">
-                        <h3 id ="p_titles">Water pokemons</h3>
-                        <div id="water_pokemons">
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Water
+                        </h3>
+                        <div class="icon water">
+                            <img src="images/water.png"/ alt="water">
+                        </div>
+
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Bug
+                        </h3>
+                        <div class="icon bug">
+                            <img src="images/bug.png"/ alt="bug">
                         </div>
                     </li>
-                    <li id = "p_pokemonsli">
-                        <h3 id ="p_titles">Ground pokemons</h3>
-                        <div id ="ground_pokemons">
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Normal
+                        </h3>
+                        <div class="icon normal">
+                            <img src="images/normal.png"/ alt="normal">
                         </div>
                     </li>
-                    <li id = "p_pokemonsli">
-                        <h3 id ="p_titles">Electric pokemons</h3>
-                        <div id="electric_pokemons">
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Dark
+                        </h3>
+                        <div class="icon dark">
+                            <img src="images/dark.png"/ alt="dark">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Poison
+                        </h3>
+                        <div class = "icon poison">
+                            <img src="images/poison.png"/ alt="poison">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Electric
+                        </h3>
+                        <div class= "icon electric">
+                            <img src="images/electric.png"/ alt="electric">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Ice
+                        </h3>
+                        <div class="icon ice">
+                            <img src="images/ice.png"/ alt="ice">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Ground
+                        </h3>
+                        <div class="icon ground">
+                            <img src="images/ground.png"/ alt="ground">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Fairy
+                        </h3>
+                        <div class="icon fairy">
+                            <img src="images/fairy.png"/ alt="fairy">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Steel
+                        </h3>
+                        <div class="icon steel">
+                            <img src="images/steel.png"/ alt="steel">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Fighting
+                        </h3>
+                        <div class="icon fighting">
+                            <img src="images/fighting.png"/ alt="fighting">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Psychic
+                        </h3>
+                        <div class="icon psychic">
+                            <img src="images/psychic.png"/ alt="psychic">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Rock
+                        </h3>
+                        <div class="icon rock">
+                            <img src="images/rock.png"/ alt="rock">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Ghost
+                        </h3>
+                        <div class ="icon ghost">
+                            <img src = "images/ghost.png"/ alt = "ghost">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Dragon
+                        </h3>
+                        <div class="icon dragon">
+                            <img src="images/dragon.png"/ alt="dragon">
+                        </div>
+                    </li>
+                    <li id = "p_typesli">
+                        <h3 id = "type-titles">
+                            Flying
+                        </h3>
+                        <div class="icon flying">
+                            <img src="images/flying.png"/ alt="flying">
                         </div>
                     </li>
                 </ul>
