@@ -1,6 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/pokemon-solid');
 /* here we import bootstrap */
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 @import url('http://fonts.cdnfonts.com/css/rutledge');* {
     margin: 0;
     padding: 0;
@@ -129,7 +128,20 @@ header img {
 }
 
 
-
+.pokemon_name{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #333;
+    margin: 0 0 20px;
+    text-align: center;
+    font-weight: 500;
+    display: block;
+    border-radius: 20px;
+    padding: 10px;
+    height: auto;
+    background-color: #f5bbbb;
+}
 
 ul{
     list-style-type: none;
